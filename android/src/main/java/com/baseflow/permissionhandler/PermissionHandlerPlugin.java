@@ -735,6 +735,7 @@ public class PermissionHandlerPlugin implements MethodCallHandler {
     //   final String locationProviders = Settings.Secure.getString(context.getContentResolver(), Settings.Secure.LOCATION_PROVIDERS_ALLOWED);
     //   return !TextUtils.isEmpty(locationProviders);
     // }
+    return false;
   }
 
   private int checkNotificationPermissionStatus(Context context) {
