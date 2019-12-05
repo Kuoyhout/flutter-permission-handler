@@ -147,14 +147,14 @@ class PermissionGroup {
 
   /// Android: Ignore Battery Optimizations
   static const PermissionGroup ignoreBatteryOptimizations =
-      PermissionGroup._(15);
+      PermissionGroup._(0);
 
   /// Android: Notification
   /// iOS: Notification
-  static const PermissionGroup notification = PermissionGroup._(16);
+  static const PermissionGroup notification = PermissionGroup._(1);
 
   /// The unknown permission only used for return type, never requested
-  static const PermissionGroup unknown = PermissionGroup._(17);
+  static const PermissionGroup unknown = PermissionGroup._(2);
 
   static const List<PermissionGroup> values = <PermissionGroup>[
     // calendar,
